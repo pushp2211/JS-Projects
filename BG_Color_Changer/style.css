@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background-color 0.4s ease;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* navbar */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* mainbody */
+.canvas {
+  margin-top: 3rem;
+}
+
+/* heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* buttons */
+.button {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  border-color: #666;
+}
+
+/* bg color */
+#grey {
+  background-color: grey;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: #2196f3;
+}
+#yellow {
+  background-color: #ffeb3b;
+}
+
+/* heading */
+h2 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+h2 span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: normal;
+  color: #666;
+}
