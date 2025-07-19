@@ -1,0 +1,152 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border: 2px solid #764ba2;
+}
+
+/* Button Styling */
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #4b6cb7;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a539b;
+}
+
+/* Result Styling */
+#result {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* BMI Guide */
+h2 {
+    margin-top: 2.5rem;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    form {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+.bmi-guide {
+    background-color: #f7f9fb;
+    color: #222;
+    border-left: 1px solid #4b6cb7;
+    border-radius: 6px;
+    padding: 0.8rem 1rem;
+    margin-top: 1.5rem;
+    max-width: 400px;
+    font-size: 0.95rem;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.bmi-guide h2 {
+    font-size: 1.2rem;
+    color: #4b6cb7;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+.bmi-guide ul {
+    padding-left: 1rem;
+    list-style-type: disc;
+    margin: 0;
+}
+
+.bmi-guide li {
+    margin-bottom: 0.3rem;
+}
+#result {
+    margin-top: 1.2rem;
+    padding: 0.8rem 1rem;
+    background-color: #ffffffcc; /* semi-transparent white */
+    border-left: 1px solid #4b6cb7;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222;
+    max-width: 400px;
+    text-align: center;
+}
