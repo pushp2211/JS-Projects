@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Numero</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/4002/4002516.png">
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+    <nav>
+        <a class="nav-button" href="index4.html">Home</a>
+        <a class="nav-button" href="https://youtu.be/eMBejJHGQ80?si=QsSR-mufTPjdSDdj">Chanson</a>
+    </nav> 
+
+    <div id="container">
+        <form class="form">
+            <label for="guessField" id="guess">Guess a number from 1 to 100</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="result">
+            <p>Previous Guesses: <span class="guesses"></span></p>
+            <p>Guesses Remaining: <span class="lastResult">10</span> out of 10</p>
+            <p class="lowhigh"></p>
+        </div>
+    </div>
+
+    <script src="guess.js"></script>
+</body>
+</html>
